@@ -1,6 +1,6 @@
 {
   "name": "@brunormoreira/prettier-config",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Personal prettier configuration",
   "publishConfig": {
     "access": "public"
@@ -13,7 +13,7 @@
     "@geut/chan": "^2.3.0"
   },
   "scripts": {
-    "version": "chan release ${npm_package_version} && git add ."
+    "version": "chan release ${npm_package_version} && git add CHANGELOG.md"
   },
   "author": "Bruno Moreira <bruno@brunormoreira.com>",
   "license": "MIT",
