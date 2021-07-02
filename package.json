@@ -13,11 +13,21 @@
     "@geut/chan": "^2.3.0"
   },
   "scripts": {
-    "version": "chan release ${npm_package_version} && git add CHANGELOG.md"
+    "version": "chan release ${npm_package_version} && git add CHANGELOG.md",
+    "postversion": "git push && git push --tags"
   },
   "author": "Bruno Moreira <bruno@brunormoreira.com>",
   "license": "MIT",
   "files": [
     "index.js"
-  ]
+  ],
+  "keywords": [
+    "prettier",
+    "formatting"
+  ],
+  "homepage": "https://github.com/brunorodmoreira/prettier-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunorodmoreira/prettier-config.git"
+  }
 }
